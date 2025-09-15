@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+
+<style>
+table, tr {border:hidden;}
+td, th {border:hidden;}
+tr:hover {background-color: gray;}
+</style>
+
+<style>
+    {
+        box-sizing: border-box;
+    }
+/* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+/* Set width length for the left, right and middle columns */
+    .left {
+    width: 45%;
+    }
+
+    .middle {
+    width: 10%;
+    }
+    
+    .right {
+    width: 45%;
+    }
+
+    .third {
+    width: 33%;
+    }
+    
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
+</head>
+
+<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+<!-- URL Slide -->
+
+<section data-background="#000000">
+        <p style="font-size:30px"> https://bit.ly/StanLazopuloSamuelLab </p>
+</section>
+
+<!-- Title Slide -->
+
+<section>
+    <p> Finding a thermotactic setpoint </em> larva </p>
+    <p > <small> Aravi Samuel on behalf of Stan Lazopulo </small></p>
+</section>
+
+<section>
+<section>
+        <p> 
+            <em> Drosophila </em> larva navigate spatial gradients <br>
+                towards preferred temperatures </p> 
+        <img src="assetsstan/thermotactictrajectories.png" width="80%">
+        <p style="font-size:20px"> 
+            Luo et al., 2010 
+        </p>
+</section>
+
+<section>
+        <p> 
+            Biased random walks 
+        </p> 
+        <img src="assetsstan/biasedrandomwalk.png" width="40%">
+        <p style="font-size:20px"> 
+             Long runs (fewer turns) when pointed towards preferred temperatures<br>
+             Short runs (more turns) when pointed towards unpreferred temperatures 
+        </p>
+</section>
+</section>
+
+
+<section>
+<section>
+    <p> Sinusoidal temporal gradients </p> 
+        <img src="assetsstan/stage.png" width="40%">
+</section>
+
+<section data-background="#000000">
+    <p> Temporal gradients below preferred T (20-22 &#176; C)</p> 
+        <video loop controls='true' width='80%' height='80%' src="assetsstan/sinusoidal.mp4" data-autoplay></video>
+</section>
+
+
+<section data-background="#FFFFFF">
+    <p> Temporal gradients below preferred T (20-22 &#176; C)</p> 
+    <div class="row">
+        <div class="column left">
+        <img src="assetsstan/sinusoidalcoldtrack.png" width="50%">
+        </div>
+        <div class="column middle">
+            <p align="left" style="font-size:20px">  
+                &nbsp;&nbsp;&nbsp;&nbsp; 
+            </p>
+        </div>
+        <div class="column right">
+        <p align="left" style="font-size:25px">  
+        <img src="assetsstan/sinusoidalcold.png" width="100%">
+        </p>
+        </div>
+    </div>
+</section>
+
+<section data-background="#FFFFFF">
+    <p> Thermotactic setpoint  </p> 
+        <img src="assetsstan/wildtypesetpoint.png" width="50%">
+</section>
+</section>
+
+<section>
+<section data-background="#FFFFFF">
+    <p> Peripheral thermosensory neurons </p> 
+    <div class="row">
+        <div class="column left">
+        <img src="assetsstan/dorsalorgan.png" width="60%">
+        </div>
+        <div class="column middle">
+            <p align="left" style="font-size:20px">  
+                &nbsp;&nbsp;&nbsp;&nbsp; 
+            </p>
+        </div>
+        <div class="column right">
+        <img src="assetsstan/dome.png" width="80%">
+        </div>
+    </div>
+        <p style="font-size:20px"> 
+            Klein et al., 2015, Hernandez et al., 2021 
+        </p>
+</section>
+<section data-background="#FFFFFF">
+    <p> A puzzle: overlapping temperature ranges </p> 
+        <img src="assetsstan/overlappingtemperatureranges.png" width="70%">
+        <p style="font-size:20px"> 
+            Hernandez et al., 2021 
+        </p>
+</section>
+<section data-background="#FFFFFF">
+    <p> A puzzle: overlapping temperature ranges </p> 
+        <img src="assetsstan/crossinhibition.png" width="100%">
+</section>
+</section>
+
+
+<section>
+<section data-background="#FFFFFF">
+    <p> dTrpA1-expressing neurons in adult </p> 
+        <img src="assetsstan/adultac.png" width="100%">
+        <p style="font-size:20px"> 
+            Hamada et al., 2018 
+        </p>
+</section>
+<section data-background="#FFFFFF">
+        <p style="font-size:25px"> Central and peripheral thermosensory integration in the hypothalamus </p> 
+        <img src="assetsstan/mousehypothalamus.png" width="50%">
+        <p style="font-size:20px"> 
+            Tan and Knight, 2018 
+        </p>
+</section>
+</section>
+
+<section data-background="#FFFFFF">
+    <p> Elevated setpoint in dTrpA1 mutants </p> 
+        <img src="assetsstan/trpa1setpoint.png" width="50%">
+</section>
+
+<section>
+<section data-background="#FFFFFF">
+    <p> In larva, TrpA1 <sup> 1 </sup> is expressed in brain and VNC </p> 
+        <img src="assetsstan/brainvnc.png" width="80%">
+</section>
+
+<section data-background="#FFFFFF">
+    <p> Four differentially expressed isoforms (A, B, C, and D) </p>
+    <div class="row">
+        <div class="column left">
+        <img src="assetsstan/A1expression.png" width="60%">
+        <img src="assetsstan/B1expression.png" width="60%">
+        </div>
+        <div class="column middle">
+            <p align="left" style="font-size:20px">  
+                &nbsp;&nbsp;&nbsp;&nbsp; 
+            </p>
+        </div>
+        <div class="column right">
+        <img src="assetsstan/C1expression.png" width="60%">
+        <img src="assetsstan/D1expression.png" width="60%">
+        </div>
+    </div>
+</section>
+
+
+</section>
+
+<section>
+<section data-background="#FFFFFF">
+    <p> TrpA1-A isoform is necessary </p> 
+        <img src="assetsstan/knockin.png" width="60%">
+</section>
+
+<section data-background="#FFFFFF">
+    <p> TrpA1-A isoform is sufficient </p> 
+        <img src="assetsstan/knockout.png" width="60%">
+</section>
+
+</section>
+
+
+<section>
+<section data-background="#FFFFFF">
+    <p> LPATs in the lateral horn </p>
+    <div class="row">
+        <div class="column left">
+        <img src="assetsstan/expressionpatterns.png" width="80%">
+        </div>
+        <div class="column middle">
+            <p align="left" style="font-size:20px">  
+                &nbsp;&nbsp;&nbsp;&nbsp; 
+            </p>
+        </div>
+        <div class="column right">
+        <img src="assetsstan/calciumdynamics.png" width="100%">
+        </div>
+    </div>
+</section>
+<section>
+    <p> Clean intersectional line  </p> 
+        <img src="assetsstan/splitgal4.png" width="100%">
+</section>
+<section data-background="#FFFFFF">
+    <p> LPATs in the connectome </p> 
+        <img src="assetsstan/mappingcircuit.png" width="100%">
+</section>
+<section data-background="#FFFFFF">
+    <p> Silencing LPATs induces mutant phenotype </p> 
+        <img src="assetsstan/silencing.png" width="50%">
+</section>
+<section data-background="#FFFFFF">
+    <p> Optogenetically activating LPATs induces turning </p> 
+        <img src="assetsstan/optogenetics.png" width="80%">
+</section>
+
+<section data-auto-animate data-background="#FFFFFF">
+    <p data-id="silencingtitle"> LPATs respond to dynamical warming 
+<em> </em> 
+</p> 
+    <div data-id="silencingfigure"> 
+        <img src="assetsstan/silencedcalcium2.png" width="80%">
+    </div>
+</section>
+
+<section data-auto-animate data-background="#FFFFFF">
+    <p data-id="silencingtitle"> <em> but not without TrpA1!  </em> 
+</p> 
+    <div data-id="silencingfigure"> 
+        <img src="assetsstan/silencedcalcium.png" width="80%">
+    </div>
+</section>
+
+</section>
+
+<section data-background="#FFFFFF">
+            <p align="left" style="font-size:25px">  LPATs gate dynamical thermosensory information from WCs (mediated by IRs) <br>
+using intrinsic sensitivity to absolute temperature (mediated by TrpA1-A)</p> 
+        <img src="assetsstan/mappingcircuit.png" width="100%">
+</section>
+
+
+<section>
+    <p>Acknowledgments</p>
+        <div style="position: absolute; top: 60px; left: 0%; width: 60%;">
+            <p> <img src="assetsstan/lab.jpg"> </p> 
+        </div>
+        <div style="position: absolute; top: 400px; left: 0%; width: 15%;">
+            <p> <img src="assetsstan/nihlogo.png"> </p> 
+        </div>
+        <div style="position: absolute; top: 410px; left: 25%; width: 40%;">
+            <p align="left"> <small> 
+                <span style="color:orange"> Paul Garrity <br> Marta Zlatic <br> Albert Cardona </span> 
+            </small> </p> 
+        </div>
+
+            <div style="position: absolute; top: 60px; left: 70%; width: 30%;">
+            <p align="left">  <small>
+                <span style="color:yellow"> Team fly </span> <br>
+                <em> Stan Lazopulo </em> <br>
+                David Zimmerman<br><br>
+                <span style="color:yellow"> Team worm </span> <br>
+                Helena Casademunt<br>
+                Ishaan Chandok<br><br>
+                <span style="color:yellow"> Team bacteria </span> <br>
+                Alina Vrabioiu<br>
+                Gabriel Hosu<br><br>
+                <span style="color:yellow"> Team undergrad </span> <br>
+                Rafael Jacobsen<br>
+                Rahm Bharara<br><br><br>
+    </small> </p> 
+    </div>
+</section>
+
+
+</div>
+
+</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			Reveal.initialize({
+				history: true,
+				transition: 'linear',
+
+				mathjax2: {
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+
+				// There are three typesetters available
+				// RevealMath.MathJax2 (default)
+				// RevealMath.MathJax3
+				// RevealMath.KaTeX
+				//
+				// More info at https://revealjs.com/math/
+				plugins: [ RevealMath.MathJax2 ]
+			});
+		</script>
+	</body>
+</html>
